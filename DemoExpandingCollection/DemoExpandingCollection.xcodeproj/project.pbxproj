@@ -46,6 +46,14 @@
 		8499D82A1D001BC3004B5B37 /* ExpandingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848596671CF58853000BCC74 /* ExpandingTableViewController.swift */; };
 		8499D82B1D001BC7004B5B37 /* TransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848596601CF58763000BCC74 /* TransitionDriver.swift */; };
 		84AC75E51CF6F5CB00421857 /* SubviewsForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC75E41CF6F5CB00421857 /* SubviewsForEach.swift */; };
+		8E0480B41D8189A400A19784 /* MILCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B01D8189A400A19784 /* MILCarouselCollectionViewCell.swift */; };
+		8E0480B51D8189A400A19784 /* MILCarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0480B11D8189A400A19784 /* MILCarouselCollectionViewCell.xib */; };
+		8E0480B61D8189A400A19784 /* MILCarouselCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B21D8189A400A19784 /* MILCarouselCollectionViewController.swift */; };
+		8E0480B71D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B31D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift */; };
+		8E0480B81D81916600A19784 /* MILCarouselCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B21D8189A400A19784 /* MILCarouselCollectionViewController.swift */; };
+		8E0480B91D81916B00A19784 /* MILCarouselCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B31D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift */; };
+		8E0480BA1D81917500A19784 /* MILCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0480B01D8189A400A19784 /* MILCarouselCollectionViewCell.swift */; };
+		8E0480BB1D81AAF800A19784 /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848596571CF586F7000BCC74 /* DemoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +120,10 @@
 		8499D8161D001B82004B5B37 /* ExpandingCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandingCollection.h; sourceTree = "<group>"; };
 		8499D8181D001B82004B5B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AC75E41CF6F5CB00421857 /* SubviewsForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubviewsForEach.swift; sourceTree = "<group>"; };
+		8E0480B01D8189A400A19784 /* MILCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MILCarouselCollectionViewCell.swift; path = ../../DemoExpandingCollection/DemoExpandingCollection/MILCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E0480B11D8189A400A19784 /* MILCarouselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MILCarouselCollectionViewCell.xib; path = ../../DemoExpandingCollection/DemoExpandingCollection/MILCarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		8E0480B21D8189A400A19784 /* MILCarouselCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MILCarouselCollectionViewController.swift; path = ../../DemoExpandingCollection/DemoExpandingCollection/MILCarouselCollectionViewController.swift; sourceTree = "<group>"; };
+		8E0480B31D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MILCarouselCollectionViewFlowLayout.swift; path = ../../DemoExpandingCollection/DemoExpandingCollection/MILCarouselCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +367,10 @@
 			isa = PBXGroup;
 			children = (
 				848596831CF58A3F000BCC74 /* CollectionView */,
+				8E0480B01D8189A400A19784 /* MILCarouselCollectionViewCell.swift */,
+				8E0480B11D8189A400A19784 /* MILCarouselCollectionViewCell.xib */,
+				8E0480B21D8189A400A19784 /* MILCarouselCollectionViewController.swift */,
+				8E0480B31D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift */,
 				848596811CF58A36000BCC74 /* ExpandingViewController.swift */,
 			);
 			path = ExpandingViewController;
@@ -530,6 +546,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0480B51D8189A400A19784 /* MILCarouselCollectionViewCell.xib in Resources */,
 				848596361CF585F3000BCC74 /* LaunchScreen.storyboard in Resources */,
 				848596331CF585F3000BCC74 /* Assets.xcassets in Resources */,
 				848596311CF585F3000BCC74 /* Main.storyboard in Resources */,
@@ -579,6 +596,7 @@
 				848596781CF58973000BCC74 /* ConstraintsHelper.swift in Sources */,
 				848596611CF58763000BCC74 /* TransitionDriver.swift in Sources */,
 				8485967F1CF589C4000BCC74 /* StoryboardHelper.swift in Sources */,
+				8E0480B41D8189A400A19784 /* MILCarouselCollectionViewCell.swift in Sources */,
 				8485965A1CF586F7000BCC74 /* DemoTableViewController.swift in Sources */,
 				8485965B1CF586F7000BCC74 /* DemoCollectionViewCell.swift in Sources */,
 				8485966A1CF58853000BCC74 /* ExpandingTableViewController.swift in Sources */,
@@ -587,6 +605,8 @@
 				8422CA741CF73EE4007E8522 /* Rotatable.swift in Sources */,
 				8485965D1CF586F7000BCC74 /* DemoViewController.swift in Sources */,
 				8485966D1CF588E0000BCC74 /* Images.swift in Sources */,
+				8E0480B71D8189A400A19784 /* MILCarouselCollectionViewFlowLayout.swift in Sources */,
+				8E0480B61D8189A400A19784 /* MILCarouselCollectionViewController.swift in Sources */,
 				8422CA731CF73EE4007E8522 /* AnimationBarButton.swift in Sources */,
 				8485968B1CF58A7D000BCC74 /* CollectionViewHelper.swift in Sources */,
 				8485962C1CF585F3000BCC74 /* AppDelegate.swift in Sources */,
@@ -611,14 +631,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8499D8271D001BB5004B5B37 /* ConstraintsHelper.swift in Sources */,
+				8E0480BB1D81AAF800A19784 /* DemoCollectionViewCell.swift in Sources */,
 				8499D8221D001BA1004B5B37 /* PageCollectionLayout.swift in Sources */,
+				8E0480B91D81916B00A19784 /* MILCarouselCollectionViewFlowLayout.swift in Sources */,
 				8499D8261D001BB1004B5B37 /* ScreenShotHelper.swift in Sources */,
 				8499D8251D001BAD004B5B37 /* SubviewsForEach.swift in Sources */,
 				8499D8281D001BBA004B5B37 /* ConfigurationHelper.swift in Sources */,
 				8499D8241D001BA8004B5B37 /* ExpandingViewController.swift in Sources */,
 				8499D82A1D001BC3004B5B37 /* ExpandingTableViewController.swift in Sources */,
+				8E0480B81D81916600A19784 /* MILCarouselCollectionViewController.swift in Sources */,
 				8499D82B1D001BC7004B5B37 /* TransitionDriver.swift in Sources */,
 				8499D8291D001BBF004B5B37 /* CornerAnimatable.swift in Sources */,
+				8E0480BA1D81917500A19784 /* MILCarouselCollectionViewCell.swift in Sources */,
 				8499D8211D001B9E004B5B37 /* BasePageCollectionCell.swift in Sources */,
 				8499D8231D001BA5004B5B37 /* PageCollectionView.swift in Sources */,
 			);
