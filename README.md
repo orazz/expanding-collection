@@ -16,6 +16,10 @@ This project is maintained by Ramotion, an agency specialized in building dedica
 
 [![Animation](https://raw.githubusercontent.com/Ramotion/expanding-collection/master/preview.gif)](https://dribbble.com/shots/2741477-iOS-Expanding-Collection-Open-Source)
 
+Carousel Version:
+
+[![Animation](https://raw.githubusercontent.com/orazz/expanding-collection/master/preview1.gif)]
+
 The [iPhone mockup](https://store.ramotion.com/product/iphone-6-mockups?utm_source=gthb&utm_medium=special&utm_campaign=expanding-collection) available [here](https://store.ramotion.com/product/iphone-6-mockups?utm_source=gthb&utm_medium=special&utm_campaign=expanding-collection).
 
 ## Requirements
